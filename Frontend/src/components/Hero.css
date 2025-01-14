@@ -1,0 +1,59 @@
+/* Hero.css */
+.hero-section {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #f8f9fa; /* Light background */
+  }
+  
+  .hero-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    color: #333; /* Dark text */
+  }
+  
+  .hero-subtitle {
+    font-size: 18px;
+    color: #666; /* Gray text */
+    margin-bottom: 40px;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 16px; /* Space between buttons */
+  }
+  
+  .get-started-button {
+    background-color: #1890ff; /* Ant Design primary color */
+    border: none;
+    color: #fff; /* White text */
+  }
+  
+  .book-demo-button {
+    background-color: transparent;
+    border: 1px solid #1890ff; /* Ant Design primary color */
+    color: #1890ff; /* Primary color text */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .hero-title {
+      font-size: 36px;
+    }
+  
+    .hero-subtitle {
+      font-size: 16px;
+    }
+  
+    .hero-buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .get-started-button,
+    .book-demo-button {
+      width: 100%;
+      max-width: 300px;
+    }
+  }
